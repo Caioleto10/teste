@@ -1,0 +1,5 @@
+vendendor = input()
+salaria_fixo = float(input())
+total_vendas = float(input())
+total_mes = salaria_fixo + (total_vendas /100 * 15)
+print("TOTAL = R$ %.2f" % total_mes)
